@@ -51,9 +51,9 @@ const birthdayCard = () => {
     }
 
     return (
-        <Box p={[2, 4, 8, 16]} bgColor='#F28AB2' w='100vw' h='100vh'>
+        <Box p={[2, 4, 8, 12]} bgColor='#F28AB2' w='100vw' minHeight='100vh'>
             <Box p='8' boxShadow='2xl' borderRadius='lg' bgColor='#fff' m='auto' maxW={'25rem'} >
-                <Heading color={defaultHeadingColor} as='h1' fontWeight='bold' fontSize='xl'>
+                <Heading color={defaultHeadingColor}  fontWeight='bold' fontSize='xl'>
                     {state.length} Birthdays Today
                 </Heading>
                 <Box mt={8}>
